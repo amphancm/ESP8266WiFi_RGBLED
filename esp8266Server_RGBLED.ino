@@ -12,8 +12,8 @@ Adafruit_SSD1306 display(OLED_RESET);
 #error("Height incorrect, please fix Adafruit_SSD1306.h!");
 #endif
 
-const char* ssid = "YOUR-SSID";
-const char* password = "YOUR-PASSWORD";
+const char* ssid = "Connectify-me";
+const char* password = "12345678";
 
 ESP8266WebServer server(80);
 
